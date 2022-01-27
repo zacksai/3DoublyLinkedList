@@ -3,10 +3,10 @@ import java.util.NoSuchElementException;
 
 /**
  * Data Structure: Doubly Linked List
- * File: ZSinglyLinkedList.java
+ * File: ZDoublyLinkedList.java
  * Author: Zack Sai
  *
- * This file demonstrates the Singly Linked List data structure
+ * This file demonstrates the Doubly Linked List data structure
  * Best Case Efficiency:
  *      get: O(1) – get at front
  *      set: O(1) – set at front
@@ -16,9 +16,6 @@ import java.util.NoSuchElementException;
  *      get: O(n) – retrieves at position passed (n)
  *      set: O(n) – stores at position passed (n)
  *      remove: O(n) – removes from position passed (n)
- *
- * Reallocate() method is used to expand the array when it is full and an
- * element must be added
  *
  * @param <E> generic data type of the list created
  */
